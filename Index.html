@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaymentDirect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PaymentDirect</h1>
+        <p>Split expenses and see who owes what.</p>
+    </header>
+
+    <main class="card">
+        <form id="personForm" class="rowForm">
+            <input id="personInput" placeholder="Add person name"/>
+            <button> Add person </button>
+            </form>
+        <form id="expenseForm" class="rowForm">
+            <input id="descInput" placeholder="Add Expense Description" />
+            <input id="amountInput" placeholder="Amount" />
+            <select id="paidBySelect"></select>
+            <button> Add Expense </button>
+        </form>
+
+        <section>
+            <h3>People</h3>
+                <ul id="peopleList" class="list"></ul>
+
+                   
+            </section>
+        <section>
+            <h3>Expenses</h3>
+            <ul id="expenselist" class="list"></ul>
+
+
+            </section>
+        <section>
+            <h3>Total</h3>
+        <p>
+            Total Spent: <strong id="totalSpent">$0.00</strong><br/>
+            Split Per Person: <strong id="splitAmount">$0.00 </strong>
+        </p>
+        </section>
+        <section class="summary">
+
+            <h3>Summary</h3>
+            <ul id="summaryList" class="list"></ul>
+            
+        </section>
+    </main>
+    <script src="app.js"></script>
+
+</body>
+</html>
