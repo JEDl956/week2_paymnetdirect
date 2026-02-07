@@ -6,6 +6,8 @@
     "enabled": true
   },
   "assets": {
-    "directory": "PaymentDirect"
+  "directory": "PaymentDirect/dist"
+}
+
   }
 }
