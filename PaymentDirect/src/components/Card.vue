@@ -6,10 +6,9 @@
 
 <style scoped>
 .card {
-  width: min(600px, 100%);
-  background: #1e1e1e; /* card dark gray */
-  padding: 18px;
-  border-radius: 16px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  background: white;
+  padding: 16px;
+  border: 1px solid black;
 }
 </style>
